@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="init.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Person Lista</h1>
+        <form>
+          <label for="gender-select">Kön:</label>
+          <select id="gender-select">
+            <option value="">Alla</option>
+            <option value="male">Man</option>
+            <option value="female">Kvinna</option>
+          </select>
+          <label for="sort-select">Sortrera efter:</label>
+          <select id="sort-select">
+            <option value="default">Standard</option>
+            <option value="age-asc">Ålder (Yngsta till Äldst)</option>
+            <option value="age-desc">Ålder (Äldsta till Yngst)</option>
+          </select>
+        </form>
+      </header>
+      <main>
+        <div id="people-container"></div>
+      </main>
+</body>
+</html>
